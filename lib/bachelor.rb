@@ -38,7 +38,7 @@ def get_occupation(data, hometown)
   data.each do |k, array_of_hashes|
     array_of_hashes.find do |ele|
      if ele["hometown"] == hometown 
-      ele["occupation"]
+      ele["occupation"].first
      end 
     end 
   end
