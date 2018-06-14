@@ -22,7 +22,7 @@ end
 def count_contestants_by_hometown(data, hometown)
   ans = []
   data.each do |k,array_of_hashes|
-   array_of_hashes.find do |occ|
+   array_of_hashes.each do |occ|
    if occ["hometown"] == hometown
    ans << hometown
    end 
