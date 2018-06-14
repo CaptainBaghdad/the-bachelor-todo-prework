@@ -41,6 +41,7 @@ def get_occupation(data, hometown)
       ele["occupation"]
      end 
     end 
+  end
   
   
 end
