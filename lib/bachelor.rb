@@ -35,16 +35,16 @@ end
 
 def get_occupation(data, hometown)
   # code here
-  ans = ""
+  ans = []
   data.each do |k, array_of_hashes|
     array_of_hashes.find do |ele|
     if  ele["hometown"] == hometown 
-      ans = ele["occupation"]
+      ans << ele["occupation"]
      end 
     end 
   end 
   
-  ans
+ puts ans
   
   
 end
