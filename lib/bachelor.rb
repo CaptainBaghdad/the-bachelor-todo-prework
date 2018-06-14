@@ -51,10 +51,6 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
-  num = 0 
-  data[season].each do |k, array_of_hashes|
-     array_of_hashes.each do |ele| 
-       ele.reduce()
-     end 
-  end 
+ ages = data[season].collect do |ele|
+   
 end
