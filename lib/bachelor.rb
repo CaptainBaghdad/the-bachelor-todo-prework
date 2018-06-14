@@ -44,7 +44,7 @@ def get_occupation(data, hometown)
     end 
   end 
   
-  ans
+  ans.first
   
   
 end
